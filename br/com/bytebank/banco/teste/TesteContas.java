@@ -1,15 +1,15 @@
-// Neste projeto coloquei em pratica topicos basicos e me aprofundei em topicos mais avancados na orientacao
-// a objetos
-package banco.teste;
+package br.com.bytebank.banco.teste;
+
+import br.com.bytebank.banco.modelo.*;
 
 public class TesteContas {
 
-	public static void main(String[] args) throws modelo.SaldoInsuficienteException {
+	public static void main(String[] args) throws SaldoInsuficienteException {
 		
-		modelo.ContaCorrente cc = new modelo.ContaCorrente(111, 111);
+		ContaCorrente cc = new ContaCorrente(111, 111);
 		cc.deposita(100);
 		
-		modelo.ContaPoupanca cp = new modelo.ContaPoupanca(222, 222);
+		ContaPoupanca cp = new ContaPoupanca(222, 222);
 		cp.deposita(200);
 		
 		cc.transfere(10.00, cp);
