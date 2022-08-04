@@ -6,4 +6,9 @@ public class ContaPoupanca extends Conta {
 		super(agencia, numero);
 	}
 
+	@Override
+	public String toString() {	
+		return ("ContaPoupanca de" + super.toString());
+	}
+	
 }

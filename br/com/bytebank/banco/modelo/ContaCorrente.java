@@ -17,4 +17,9 @@ public class ContaCorrente extends Conta implements Tributacao {
 		return super.saldo * 0.01;
 	}
 
+	@Override
+	public String toString() {	
+		return ("ContaCorrente de" + super.toString());
+	}
+	
 }
