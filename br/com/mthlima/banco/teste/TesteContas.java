@@ -1,6 +1,6 @@
-package br.com.bytebank.banco.teste;
+package br.com.mthlima.banco.teste;
 
-import br.com.bytebank.banco.modelo.*;
+import br.com.mthlima.banco.modelo.*;
 
 public class TesteContas {
 

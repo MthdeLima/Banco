@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.teste;
+package br.com.mthlima.banco.teste;
 
 public class TesteString {
 

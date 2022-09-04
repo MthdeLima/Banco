@@ -1,4 +1,4 @@
-package br.com.bytebank.banco.modelo;
+package br.com.mthlima.banco.modelo;
 
 public class CalculadorImposto {
 
