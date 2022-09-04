@@ -26,10 +26,10 @@ public abstract class Conta {
     	} else {
     	
     		Conta.total++;
-    		System.out.println("o total de contas abertas e: " + Conta.total);
     		this.agencia = agencia;
     		this.numero = numero;
-    		System.out.println("estou criando uma conta de numero " + this.numero);
+    		System.out.println("estou criando uma conta de numero " + this.numero  + " e agencia " + this.agencia);
+    		System.out.println("o total de contas abertas e: " + Conta.total);
     	}
     }
     
